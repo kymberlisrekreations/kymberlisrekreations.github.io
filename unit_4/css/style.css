@@ -1,27 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Economica:700);
+
+
+h1	{
+	color: #1c193a;
+	font-family: 'Slabo 27px', serif;
+}
+
 body {
-	background-color: #CE9556;
+	background-color: #FFE57a;
 	text-align: center;
 }
 
-h1, p{
-	color: #ffff00;
-	font-family: Arial, sans-serif;
-	font-size: 25px;
-	font-weight: bold;
 
-}
-
-h2, p{
-	font-size: 18px;
-	font-weight: normal;
-
+h2  {
+	font-family: 'Economica', sans-serif;
+	font-style: italic;
 }
 
 img{
 	align-items: horizontal;
-	padding-right: 6px;
-width: 250px;
-
+	padding-right: 25px;
+	padding-bottom: 20px;
+	width: 250px;
 }
 
 footer{
@@ -36,4 +37,7 @@ ul{
 }
 nav{
 	padding-bottom: 15px;
+	margin-right: 20px;
+	font-family: 'Economica', sans-serif;
+	font-size: 25px;
 }	
