@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Economica:700);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+h1	{
+	color: #1c193a;
+	font-family: 'Slabo 27px', serif;
+}
+
+body {
+	background-color: #FFE57a;
+	text-align: center;
+}
+
+
+h2  {
+	font-family: 'Economica', sans-serif;
+	font-style: italic;
+}
+
+img{
+	align-items: horizontal;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	width: 250px;
+}
+
+p {
+	text-align: center;
+	font-size: 1em;
+}
+
+footer{
+	text-align: center;
+	text-decoration-color: #222222;
+}
+
+ul{
+	text-align: center;
+	list-style-type: none;
+
+}
+nav{
+	padding-bottom: 35px;
+	margin-right: 50px;
+	font-family: 'Economica', sans-serif;
+	font-size: 1em;
+}	
