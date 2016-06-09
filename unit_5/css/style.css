@@ -25,12 +25,16 @@ body {
 
 p {
 	text-align: center;
+	width: 500px;
+	text-align: center;
+	
 }
 
 h2  {
 	font-family: 'Economica', sans-serif;
 	font-style: italic;
 }
+
 img{
 	align-items: horizontal;
 	padding-right: 25px;
