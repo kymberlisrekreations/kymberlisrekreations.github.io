@@ -7,6 +7,12 @@
 	text-align: center;
 }
 
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 h1	{
 	color: #1c193a;
 	font-family: 'Slabo 27px', serif;
@@ -19,6 +25,7 @@ body {
 
 p {
 	text-align: center;
+	width: 300px;
 }
 
 h2  {
@@ -36,6 +43,7 @@ img{
 footer{
 	text-align: center;
 	text-decoration-color: #222222;
+	background-color: #ff957e;
 }
 
 ul{
@@ -49,10 +57,13 @@ nav{
 	font-family: 'Economica', sans-serif;
 	font-size: 25px;
 	text-decoration: none;
+	background-color: #e8c66a
 
 }
 
-
+div {
+	background-color: #ffe2b8;
+}
 
 
 
