@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Economica:700);
+* {
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1	{
+	color: #1c193a;
+	font-family: 'Slabo 27px', serif;
+}
+
+body {
+	background-color: #FFE57a;
+	
+}
+
+p {
+	text-align: center;
+	width: 500px;
+	text-align: center;
+	
+}
+
+h2  {
+	font-family: 'Economica', sans-serif;
+	font-style: italic;
+}
+
+img{
+	align-items: horizontal;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	width: 25px;
+}
+
+footer{
+	text-align: center;
+	text-decoration-color: #222222;
+	background-color: #ff957e;
+}
+
+ul{
+	text-align: center;
+	list-style-type: none;
+
+}
+nav{
+	padding-bottom: 15px;
+	margin-right: 50px;
+	font-family: 'Economica', sans-serif;
+	font-size: 25px;
+	text-decoration: none;
+	background-color: #e8c66a
+
+}
+
+div {
+	background-color: #ffe2b8;
+
+#two_column {
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: ##e582a2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #e55b88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	
+}
