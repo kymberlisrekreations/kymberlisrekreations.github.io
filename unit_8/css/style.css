@@ -38,13 +38,14 @@ img {
 	padding-right: 25px;
 	padding-bottom: 20px;
 	width: 250px;
-}
 
-footer {
+	
+
+/*footer {
 	text-align: center;
 	text-decoration-color: #222222;
-	margin: 0 50px;
-}
+	display: block;
+}*/
 
 ul {
 	text-align: center;
@@ -57,7 +58,6 @@ nav {
 	font-family: 'Economica', sans-serif;
 	font-size: 25px;
 	text-decoration: none;
-	
 }
 
 
@@ -69,27 +69,28 @@ nav {
 
 #left {
 	border: solid black;
-	/*padding: 10px;*/
+	padding: 10px;
 	float: left;
 	width: 50%;
 	font-size: 22px;
-	text-align: right;
 }
 
 #right {
 	border: solid black;
-	/*padding: 10px;*/
+	padding: 10px;
 	float: right;
 	width: 50%;
 	font-size: 22px
-	text-align: left;
+	
 }
 
 #contact {
 	text-align: center;
-	display: inline;
+	display: block;
 	font-size: 10px;
+
 }
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -100,5 +101,31 @@ nav {
 	
 }	
 .bracelet {
-	
+	align-items: horizontal;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	width: 20%
+}
+
+@media only screen and (max-width: 1088px) {
+
+	.bracelet {
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 834px) {
+
+	.bracelet {
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 622px) {
+
+	#right, #left {
+		display: block;
+		text-align: center;
+		height: 322px;
+	}
 }

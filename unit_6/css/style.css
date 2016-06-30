@@ -90,6 +90,7 @@ nav {
 	display: inline;
 	font-size: 10px;
 }
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
