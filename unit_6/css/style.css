@@ -43,7 +43,6 @@ img {
 footer {
 	text-align: center;
 	text-decoration-color: #222222;
-	background-color: #ff957e;
 	margin: 0 50px;
 }
 
@@ -58,35 +57,39 @@ nav {
 	font-family: 'Economica', sans-serif;
 	font-size: 25px;
 	text-decoration: none;
-	background-color: #e8c66a
+	
 }
 
-div {
-	background-color: #ffe2b8;
-}
 
 #two_column {
-	background-color: #ffb7cf;
 	border: 1px black solid;
 	padding: 20px;
+	font-size: 25px;
 }
 
 #left {
-	background-color: ##e582a2;
-	border: 1px black solid;
-	padding: 20px;
+	border: solid black;
+	/*padding: 10px;*/
 	float: left;
-	width: 30%;
+	width: 50%;
+	font-size: 22px;
+	text-align: right;
 }
 
 #right {
-	background-color: #e55b88;
-	border: 1px black solid;
-	padding: 20px;
+	border: solid black;
+	/*padding: 10px;*/
 	float: right;
-	width: 62%;
+	width: 50%;
+	font-size: 22px
+	text-align: left;
 }
 
+#contact {
+	text-align: center;
+	display: inline;
+	font-size: 10px;
+}
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -94,5 +97,8 @@ div {
 	content: " ";
 	clear: both;
 	height: 0;
+	
+}	
+.bracelet {
 	
 }
