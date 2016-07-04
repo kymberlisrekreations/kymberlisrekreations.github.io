@@ -8,7 +8,7 @@
 }
 
 header {
-	background-color: #ffed74;
+	background-color: #cdcfb8;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -19,7 +19,7 @@ h1	{
 }
 
 body {
-	background-color: #FFE57a;
+	background-color: #E4E5CC;
 	width: 100%;
 }
 
@@ -31,6 +31,12 @@ p {
 h2  {
 	font-family: 'Economica', sans-serif;
 	font-style: italic;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.navigate {
+	margin-bottom: 20px;
 }
 
 img {
@@ -48,7 +54,7 @@ ul {
 }
 
 nav {
-	padding-bottom: 15px;
+	padding: 40px 0 40px;
 	margin: 0 50px;
 	font-family: 'Economica', sans-serif;
 	font-size: 25px;
@@ -77,13 +83,18 @@ nav {
 	width: 50%;
 	height: 276px;
 	text-align: center;
-
 }
 
-#contact {
+.order {
+	padding-top: 40px;
+}
+
+
+.contact {
 	text-align: center;
 	display: inline-block;
-	font-size: .4em;
+	font-size: .8em;
+	padding: none;
 
 }
 
