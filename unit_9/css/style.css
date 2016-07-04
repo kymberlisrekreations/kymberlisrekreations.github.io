@@ -144,19 +144,11 @@ nav {
 		width: 75%;
 	}
 }
-@media only screen and (max-width: 535px) {
 
-	#order {
-		display: block;
-		margin: 10px 0;
-		float: none;
-	}	
-			
-}
-@media only screen and (max-width: 447px) {
+@media only screen and (max-width: 434px) {
 
 	#right, #left {
-		font-size: .8em;
-		width: 70%;
+		width: 100%;
+		padding: none;
 	}
 }	
