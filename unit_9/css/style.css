@@ -57,7 +57,7 @@ nav {
 	padding: 40px 0 40px;
 	margin: 0 50px;
 	font-family: 'Economica', sans-serif;
-	font-size: 25px;
+	font-size: 20px;
 	text-decoration: none;
 }
 
@@ -144,3 +144,19 @@ nav {
 		width: 75%;
 	}
 }
+@media only screen and (max-width: 535px) {
+
+	#order {
+		display: block;
+		margin: 10px 0;
+		float: none;
+	}	
+			
+}
+@media only screen and (max-width: 447px) {
+
+	#right, #left {
+		font-size: .8em;
+		width: 70%;
+	}
+}	
