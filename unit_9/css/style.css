@@ -85,7 +85,7 @@ nav {
 	text-align: center;
 }
 
-.order {
+#order {
 	padding-top: 40px;
 }
 
@@ -111,7 +111,7 @@ nav {
 	align-items: horizontal;
 	padding-right: 25px;
 	padding-bottom: 20px;
-	width: 20%
+	width: 250px;
 }
 
 @media only screen and (max-width: 1088px) {
