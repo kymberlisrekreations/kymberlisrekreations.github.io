@@ -35,7 +35,6 @@ h2  {
 	margin-bottom: 30px;
 }
 
-
 img {
 	align-items: horizontal;
 	padding-right: 25px;
@@ -43,13 +42,18 @@ img {
 	width: 250px;
 }
 	
-
-
 ul {
 	text-align: center;
 	list-style-type: none;
 }
 
+nav {
+	padding-bottom: 15px;
+	margin: 0 50px;
+	font-family: 'Economica', sans-serif;
+	font-size: 25px;
+	text-decoration: none;
+}
 
 #two_column {
 	border: 1px black solid;
@@ -69,12 +73,12 @@ ul {
 	border: solid black;
 	padding: 10px;
 	float: right;
-	width: 50%;
+	width: 25%;
 	height: 276px;
 	text-align: center;
 }
 
-#order {
+*#order {
 	padding-top: 40px;
 	margin: 0 50px;
 	font-family: 'Economica', sans-serif;
@@ -145,3 +149,20 @@ ul {
 		padding: none;
 	}
 }	
+
+@media only screen and (max-width: 351px) {
+
+	#right, #left {
+		width: 100%;
+		padding: none;
+	}
+}
+
+@media only screen and (max-width: 340px) {
+
+	#right, #left {
+		width: 100%;
+		padding: none;
+	}
+
+}
