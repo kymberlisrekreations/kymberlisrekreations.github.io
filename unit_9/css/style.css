@@ -50,14 +50,6 @@ ul {
 	list-style-type: none;
 }
 
-nav {
-	padding: 40px 0 40px;
-	margin: 0 50px;
-	font-family: 'Economica', sans-serif;
-	font-size: 20px;
-	text-decoration: none;
-}
-
 
 #two_column {
 	border: 1px black solid;
@@ -84,8 +76,11 @@ nav {
 
 #order {
 	padding-top: 40px;
+	margin: 0 50px;
+	font-family: 'Economica', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
 }
-
 
 .contact {
 	text-align: center;
@@ -110,6 +105,7 @@ nav {
 	padding-bottom: 20px;
 	width: 250px;
 }
+
 
 @media only screen and (max-width: 1088px) {
 
