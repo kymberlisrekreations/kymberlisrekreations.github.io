@@ -20,7 +20,7 @@ h1	{
 
 body {
 	background-color: #E4E5CC;
-	width: 100%;
+	width: auto;
 }
 
 p {
@@ -135,7 +135,7 @@ a {
 		display: inline-block;
 		text-align: center;
 		float: none;
-		width: 100%;
+		width: auto;
 	}
 }
 
@@ -143,14 +143,14 @@ a {
 
 	#right, #left {
 		font-size: 1em;
-		width: 100%;
+		width: auto;
 	}
 }
 
 @media only screen and (max-width: 434px) {
 
 	#right, #left {
-		width: 100%;
+		width: auto;
 		padding: none;
 	}
 }	
@@ -160,14 +160,15 @@ a {
 	#right, #left {
 		width: auto;
 		height: auto;
+		margin: none;
 	}
 }
 
-/*@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 340px) {
 
 	#right, #left {
-		width: 100%;
-		padding: none;
-	}*/
-
+		width: auto;
+		height: auto;
+		margin: auto;
+	}
 }
